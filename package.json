@@ -1,12 +1,14 @@
 {
-  "name": "bik-pick-app",
+  "name": "bik-picture",
   "version": "0.0.0",
+  "engines": { "node": "x.x.x", "npm": "x.x.x" },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "heroku-postbuild": "ng build — prod"
   },
   "private": true,
   "dependencies": {
@@ -21,10 +23,12 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
-    "express": "^4.17.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@angular/cli": "x.x.x",
+    "@angular/compiler-cli": "x.x.x",
+    "typescript":"x.x.x"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.1.1",
