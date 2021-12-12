@@ -2,8 +2,8 @@
   "name": "bik-picture",
   "version": "0.0.0",
   "engines": {
-    "node": "x.x.x",
-    "npm": "x.x.x"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   },
   "scripts": {
     "ng": "ng",
@@ -17,7 +17,8 @@
   "dependencies": {
     "@angular/animations": "~13.1.0",
     "@angular/cdk": "^13.1.0",
-    "@angular/cli": "x.x.x",
+    "@angular/cli": "~13.1.1",
+    "@angular/compiler-cli": "~13.1.0",
     "@angular/common": "~13.1.0",
     "@angular/compiler": "~13.1.0",
     "@angular/core": "~13.1.0",
@@ -29,7 +30,7 @@
     "@angular/router": "~13.1.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
-    "typescript": "x.x.x",
+    "typescript": "~4.5.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
